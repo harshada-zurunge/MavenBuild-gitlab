@@ -15,3 +15,4 @@ jobs:
       - name: Check if previous steps is success or failure
         run: echo "Running on failure"
         if: ${{ failure() && steps.exec.conclusion == 'failure' }}
+        
