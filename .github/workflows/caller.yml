@@ -1,0 +1,10 @@
+name: Github actions Resuable workflow 
+run-name: GitHub Action Reusable Workflow
+on:
+  workflow_dispatch:
+  workflow_call:
+jobs:
+  Basic-Workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Executing Reusable Workflow"
