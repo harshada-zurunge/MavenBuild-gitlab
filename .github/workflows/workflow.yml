@@ -3,5 +3,5 @@ on:
   push:
 jobs:  
   Reusable-caller-job:
-    uses: ./.
+    uses: ./.github/workflows/workflow.yml
   
