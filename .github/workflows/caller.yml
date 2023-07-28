@@ -3,4 +3,4 @@ on:
   push:
 jobs:  
   Reusable-caller-job:
-    uses: ./.github/workflows/workflow.yml
+    uses: ./.github/workflows/maven.yml
